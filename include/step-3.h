@@ -71,6 +71,7 @@ protected:
   void
   output_results() const;
 
+  // Bare min to solve PDE 
   Triangulation<2>     triangulation;
   FE_Q<2>              fe;
   DoFHandler<2>        dof_handler;

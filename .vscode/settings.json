@@ -17,5 +17,31 @@
         "*.inst": "cpp",
         "*.inst.in": "cpp",
         "*.h": "cpp"
-    }
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "googletest.failed",
+                "settings": {
+                    "foreground": "#f00"
+                }
+            },
+            {
+                "scope": "googletest.passed",
+                "settings": {
+                    "foreground": "#0f0"
+                }
+            },
+            {
+                "scope": "googletest.run",
+                "settings": {
+                    "foreground": "#0f0"
+                }
+            }
+        ]
+    },
+    "editor.codeActionsOnSave": true,
+    "editor.formatOnSave": true,
+    "clang-format.language.cpp.style": "file",
+    "clang-format.executable": "/absolute/path/to/clang-format"
 }
